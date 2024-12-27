@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "baseUrl": ".",
+    "lib": ["es6", "dom"],
+    "types": ["cypress", "node"],
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node",
+    "strict": true,
+    "skipLibCheck": true,
+    "preserveValueImports": false,
+    "verbatimModuleSyntax": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false
+  },
+"include": ["cypress/**/*.ts", "**/*.ts"],
+"paths": {
+  "@homePage/*": ["cypress/pom/homePage/*"]
+}
+}
+
+  
