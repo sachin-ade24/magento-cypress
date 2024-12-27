@@ -39,6 +39,6 @@ describe("Signup", () => {
     cy.getText(
       spSe.selectors.SUCCESS_MESSAGE,
       suSt.strings.SUCCESS_MESSAGE_TEXT
-    );
+    ).and("have.css", "color", "rgb(0, 100, 0)");
   });
 });

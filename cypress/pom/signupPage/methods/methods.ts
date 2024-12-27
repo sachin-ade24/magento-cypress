@@ -54,7 +54,9 @@ export const createUserAccount = () => {
   sum
     .getInputTextbox(idPartialValues.CONFIRM_PASSWORD)
     .type(`${Cypress.env("password")}`);
-  cy.getText(spSe.selectors.CAA_TITLE, suSt.strings.CREATE_ACCOUNT).click();
+  cy.getText(spSe.selectors.CAA_TITLE, suSt.strings.CREATE_ACCOUNT)
+    .and("have.css", "background-color", "rgb(25, 121, 195)")
+    .click();
 };
 
 export class signupMethods {
