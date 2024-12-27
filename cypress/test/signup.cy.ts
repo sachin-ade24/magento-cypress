@@ -17,7 +17,7 @@ describe("Signup", () => {
       expect(title).to.be.equal(hpst.strings.HOME_PAGE_TITLE);
     });
   });
-  it(`Verifies and clicks on '${hpst.strings.CREATE_ACCOUNT}' and verifies the h1 header text`, () => {
+  it(`Verifies & clicks on '${hpst.strings.CREATE_ACCOUNT}' and verifies the h1 header text`, () => {
     cy.getText("a", hpst.strings.CREATE_ACCOUNT).click();
     cy.url().then((url) => {
       expect(url).to.be.equal(
