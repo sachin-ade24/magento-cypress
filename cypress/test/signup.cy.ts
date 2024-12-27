@@ -7,7 +7,7 @@ import { spSe } from "cypress/pom/signupPage/selectors/signupPageSelectors";
 import { suSt } from "cypress/pom/signupPage/strings/signupStrings";
 
 describe("Signup", () => {
-  it("Verifies the url and title of the home page", () => {
+  it("Verifies the url", () => {
     cy.url().then((url) => {
       expect(url).to.be.equal(`${hpst.strings.HOME_PAGE_URL}/`);
     });
