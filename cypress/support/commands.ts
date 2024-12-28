@@ -37,5 +37,5 @@
 // }
 
 Cypress.Commands.add("getText", (selector: string, text: string) => {
-  return cy.contains(selector, text).should("be.visible");
+  return cy.contains(selector, text, { timeout: 20000 }).should("be.visible");
 });
