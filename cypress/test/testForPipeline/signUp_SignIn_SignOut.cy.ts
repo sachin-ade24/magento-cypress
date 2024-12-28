@@ -6,5 +6,5 @@
   5) Finally, after block in the e2e.ts will be executed
 */
 import "cypress/test/signUp.cy";
-import "cypress/test/testForPipeline/minimalTestToLogOut.cy";
+import "cypress/test/testForPipeline/minimalTestToLogOut";
 import "cypress/test/signIn.cy";

@@ -7,7 +7,7 @@ import {
 import { spSe } from "cypress/pom/signupPage/selectors/signupPageSelectors";
 import { suSt } from "cypress/pom/signupPage/strings/signupStrings";
 
-describe("Signup", () => {
+describe("Sign Up Test", () => {
   it("Verifies the url", () => {
     hp.verifyUrl(`${hpst.strings.HOME_PAGE_URL}/`);
   });

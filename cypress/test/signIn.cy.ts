@@ -6,9 +6,9 @@ import {
 } from "cypress/pom/signInPage/methods/methods";
 import { siSt } from "cypress/pom/signInPage/strings/signInStrings";
 
-describe("Sign In", () => {
+describe("Sign In Test", () => {
   it("Verifies sign in text and clicks on it", () => {
-    cy.getText("a", "Sign In").click();
+    cy.getText("a", siSt.strings.SIGN_IN_BUTTON_TEXT).click();
   });
 
   it("Verifies the current url", () => {
