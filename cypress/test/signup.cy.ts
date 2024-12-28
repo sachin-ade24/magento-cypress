@@ -33,7 +33,7 @@ describe("Signup", () => {
     createUserAccount();
   });
 
-  it("Verifiy the success message and sign out", () => {
+  it("Verifiy the success message", () => {
     cy.getText(
       spSe.selectors.SUCCESS_MESSAGE,
       suSt.strings.SUCCESS_MESSAGE_TEXT

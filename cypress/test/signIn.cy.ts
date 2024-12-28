@@ -4,7 +4,6 @@ import {
   completeTheSignIn,
   verifyTheAlertMessage
 } from "cypress/pom/signInPage/methods/methods";
-import { siSe } from "cypress/pom/signInPage/selectors/signInSelectors";
 import { siSt } from "cypress/pom/signInPage/strings/signInStrings";
 
 describe("Sign In", () => {
