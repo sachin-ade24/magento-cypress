@@ -2,7 +2,7 @@ Note: To get started, clone the repository and install the required dependencies
 
 Automation tool: Cypress,
 
-BDD Framwork: Mocha,
+BDD Framework: Mocha,
 
 Programming Language: TypeScript,
 
