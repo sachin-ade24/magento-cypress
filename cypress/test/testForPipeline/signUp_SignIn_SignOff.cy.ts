@@ -5,6 +5,9 @@
   4) After that we can do the sign-in
   5) Finally, after block in the e2e.ts will be executed
 */
+/*Note: It is not necessary to create such a file for pipeline.
+        We can run indivisual scripts for pipeline.
+*/
 import "cypress/test/signUpTest.cy";
 import "cypress/test/testForPipeline/minimalTestToLogOut";
 import "cypress/test/signInTest.cy";
