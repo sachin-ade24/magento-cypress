@@ -17,11 +17,11 @@ export const verifyTheAlertMessage = () => {
 };
 
 export const signOff = () => {
-    cy.get(siSe.selectors.CUSTOMER_NAME)
-      .first()
-      .find(siSe.selectors.DD_BUTTON)
-      .click();
-    cy.getText("a", siSt.strings.SIGN_OUT).click();
-    cy.getText("span", siSt.strings.SIGN_OUT_MESSAGE);
-    cy.getText("span", siSt.strings.HP);
-  };
+  cy.get(siSe.selectors.CUSTOMER_NAME)
+    .first()
+    .find(siSe.selectors.DD_BUTTON)
+    .click();
+  cy.getText("a", siSt.strings.SIGN_OUT).click();
+  cy.getText("span", siSt.strings.SIGN_OUT_MESSAGE);
+  cy.getText("span", siSt.strings.HP);
+};

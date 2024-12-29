@@ -1,4 +1,4 @@
-export enum signIn{
-    EMAIL = "email",
-    PASSWORD = "pass"
+export enum signIn {
+  EMAIL = "email",
+  PASSWORD = "pass"
 }
