@@ -16,7 +16,7 @@ export const verifyTheAlertMessage = () => {
   );
 };
 
-export const signOut = () => {
+export const signOff = () => {
     cy.get(siSe.selectors.CUSTOMER_NAME)
       .first()
       .find(siSe.selectors.DD_BUTTON)
