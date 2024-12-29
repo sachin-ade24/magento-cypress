@@ -7,4 +7,4 @@
 */
 import "cypress/test/signUpTest.cy";
 import "cypress/test/testForPipeline/minimalTestToLogOut";
-import "cypress/test/signIn.cy";
+import "cypress/test/signInTest.cy";
