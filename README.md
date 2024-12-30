@@ -6,4 +6,4 @@ BDD Framework: Mocha,
 
 Programming Language: TypeScript,
 
-Manual Tests: Available in fixtures folder
+Manual Tests: Available in the fixtures folder
