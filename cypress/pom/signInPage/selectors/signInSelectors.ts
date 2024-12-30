@@ -1,3 +1,5 @@
+/*We can keep these selectors in relevant 'methods' file*/
+
 export class signInPageSelectors {
   get selectors() {
     return {

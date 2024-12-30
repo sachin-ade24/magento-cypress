@@ -1,3 +1,5 @@
+/*We can keep these strings in relevant 'methods' file*/
+
 export class homePageStrings {
   get strings() {
     return {
